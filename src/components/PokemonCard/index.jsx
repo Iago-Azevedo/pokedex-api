@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions } from '@mui/material';
-// import { Button } from '@mui/material';
 
 export default function PokemonCard({ name, image, types }) {
 
@@ -35,9 +34,6 @@ export default function PokemonCard({ name, image, types }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        {/* <Button size="small" color="primary">
-          Share
-        </Button> */}
       </CardActions>
     </Card>
   );
